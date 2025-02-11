@@ -59,19 +59,24 @@
     <UnityVersion>6000.0.16f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="/Users/birajdahal/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.0/Analyzers/Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.16f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.16f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.16f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/_Unity Essentials/Source Files/ThirdPersonController/Scripts/BasicRigidBodyPush.cs" />
+    <Compile Include="Assets/_Unity Essentials/Scripts/DayNightCycle.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/UpdateCollectibleCount.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/ThirdPersonController/Scripts/ThirdPersonController.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/DoorController.cs" />
+    <Compile Include="Assets/_Unity Essentials/Scripts/DoorOpener.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/CheckCodeEntered.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/StarterSceneStar.cs" />
+    <Compile Include="Assets/_Unity Essentials/Scripts/Collectible.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/InputSystem/StarterAssetsInputs.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/LoadSceneByIndex.cs" />
+    <Compile Include="Assets/_Unity Essentials/Scripts/PlayerController.cs" />
     <Compile Include="Assets/_Unity Essentials/Scripts/Provided Scripts/Collectible2D.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/SimpleCameraController.cs" />
     <Compile Include="Assets/_Unity Essentials/Source Files/Scripts/PlaySoundAtRandomIntervals.cs" />
